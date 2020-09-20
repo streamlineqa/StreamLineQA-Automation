@@ -1,0 +1,14 @@
+# Don't change any of the words to the left of the equals signs (baseURL, shouldGatherData, ...)
+# Don't delete the equals signs either
+
+# baseURL is optional. We'll replace all instances of domain/ with the baseURL in your test cases
+# shouldGatherData -> "yes" = gather data in the data file. 
+#                     "no" = do not gather data. 
+# shouldRunParallel -> "yes" = make requests and run tests in parallel. 
+#                     "no" = no parallel execution. 
+
+baseURL = 
+shouldGatherData = yes
+shouldRunParallel = yes
+email = 
+key = 
