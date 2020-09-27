@@ -4,11 +4,14 @@
 # baseURL is optional. We'll replace all instances of domain/ with the baseURL in your test cases
 # shouldGatherData -> "yes" = gather data in the data file. 
 #                     "no" = do not gather data. 
+# shouldEnableTestManagement -> "yes" = add data to test files and write granular test report to output file 
+#                               "no" = Do not write data to test files + no granular report. 
 # shouldRunParallel -> "yes" = make requests and run tests in parallel. 
-#                     "no" = no parallel execution. 
+#                      "no" = no parallel execution. 
 
 baseURL = 
 shouldGatherData = yes
+shouldEnableTestManagement = yes
 shouldRunParallel = yes
 email = 
 key = 
