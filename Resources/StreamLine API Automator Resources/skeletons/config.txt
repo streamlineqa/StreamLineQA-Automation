@@ -13,5 +13,3 @@ baseURL =
 shouldGatherData = yes
 shouldEnableTestManagement = yes
 shouldRunParallel = yes
-email = 
-key = 

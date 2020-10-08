@@ -1,10 +1,8 @@
-# Don't change any of the words to the left of the equals signs (url, depth, key)
+# Don't change any of the words to the left of the equals signs (url, depth, ...)
+# Don't remove the equals signs
 # For depth, enter an integer between 1 and 6
 # shouldRunParallel -> 'yes' or 'no' for parallel execution
-# email is mandatory
 
 url = https://www.google.com
 depth = 1
 shouldRunParallel = 
-email = 
-key = 
