@@ -1,7 +1,7 @@
 # Don't change any of the words to the left of the equals signs (baseURL, shouldGatherData, ...)
 # Don't delete the equals signs either
 
-# baseURL is optional. We'll replace all instances of domain/ with the baseURL in your test cases
+# baseURL is required if you want to use relative urls in your test cases.
 # shouldGatherData -> "yes" = gather data in the data file. 
 #                     "no" = do not gather data. 
 # shouldEnableTestManagement -> "yes" = add data to test files and write granular test report to output file 
